@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,*::before,*::after{
+            margin:0; 
+        }
+        .item{
+            width:200px;
+            height:25px;
+
+        }
+        .bre:hover{
+            background-color: #0017bd;
+            color:white;
+            border-radius: 3px;
+            cursor:pointer;
+        }
+           
+        .bre{
+            color: #055898;
+            font-family: monospace;
+            font-weight: 500;
+            padding: 20px 20px 20px 10px;
+            font-size: 15px;
+
+        }
+        .parent{
+             display: flex;
+             flex-direction: row;
+             justify-content:space-around;
+             box-shadow: #32325d40 0 50px 100px -20px, #0000004d 0 30px 60px -30px, #0a254059 0 -2px 6px inset;
+        }
+        .bre1{
+            padding: 10px 30px 10px 0px !important;
+        }
+        .parent2{
+            display:flex;
+            justify-content: space-around;
+            width:200px;
+            height:30px;
+           
+        }
+        .name{
+            text-decoration: none;
+            color: #055898;
+            font-weight: 600;
+        }
+        /*svg{
+            padding:10px 5px 5px 0px;
+        }*/
+        .bre2>svg{
+              fill:#0017bd;
+              float:left;
+              padding-top:15px ;
+              padding-left: 0px;
+        }
+        .parent3{
+            display:flex;
+            justify-content: space-evenly;
+            
+        }
+        .name1{
+            background-color: #0661a7;
+            margin-top: 2.5rem !important;
+            padding: 1rem 2rem;
+            font-size: 1.3vw;
+            font-weight: 500;
+            border:none;
+            border-radius: 2px !important;
+            cursor: pointer;
+            color:white !important;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="parent">
+        <div class="item bre1">
+            <img src="https://bytesplash.in/assets/logo/ByteSplash_Logo.png" alt="image not found" width="100px" height="30px" >
+            <pre style="font-size:15px; font-weight: 600; color:grey;">Training & Placement Center</pre>
+        </div>
+        <div class="parent2">
+        <div class="item bre">Home</div>
+        <div class="item bre">Courses</div>
+        <div class="item bre">Contact</div>
+        </div>
+        <div class="parent3">
+        <div class="item bre" style="margin-left:15px;">
+            <svg _ngcontent-ng-c3285547652="" version="1.1" id="callIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 414.937 414.937" xml:space="preserve"><g _ngcontent-ng-c3285547652=""><path _ngcontent-ng-c3285547652="" id="callIcon" d="M159.138,256.452c37.217,36.944,80.295,72.236,97.207,55.195c24.215-24.392,39.12-45.614,92.854-2.761
+                c53.734,42.874,12.696,71.727-10.757,95.363c-27.064,27.269-128.432,1.911-228.909-97.804C9.062,206.71-17.07,105.54,10.014,78.258
+                c23.46-23.637,52.006-64.879,95.254-11.458c43.269,53.394,22.161,68.462-2.054,92.861
+                C86.31,176.695,121.915,219.501,159.138,256.452z M213.104,80.203c0,0-11.227-1.754-19.088,6.113
+                c-8.092,8.092-8.445,22.032,0.082,30.552c5.039,5.039,12.145,6.113,12.145,6.113c13.852,2.598,34.728,6.997,56.944,29.206
+                c22.209,22.208,26.608,43.084,29.206,56.943c0,0,1.074,7.106,6.113,12.145c8.521,8.521,22.46,8.174,30.552,0.082
+                c7.861-7.86,6.113-19.087,6.113-19.087c-4.399-28.057-17.999-57.365-41.351-80.716C270.462,98.203,241.153,84.609,213.104,80.203z
+                 M318.415,96.958c40.719,40.719,58.079,86.932,52.428,124.379c0,0-1.972,11.859,5.773,19.604
+                c8.718,8.718,22.535,8.215,30.695,0.062c5.243-5.243,6.385-13.777,6.385-13.777c4.672-32.361-1.203-97.464-64.647-160.901
+                C285.605,2.887,220.509-2.988,188.147,1.677c0,0-8.527,1.136-13.777,6.385c-8.16,8.16-8.656,21.978,0.061,30.695
+                c7.746,7.746,19.604,5.773,19.604,5.773C231.484,38.879,277.696,56.24,318.415,96.958z"></path></g></svg> +91 8660803099 
+                </div>
+                
+        <div class="item bre2" style="padding-left: 0px !important;">
+           <svg _ngcontent-ng-c3285547652=""  style="float:inline-start;"width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path _ngcontent-ng-c3285547652="" d="M4 7L10.94 11.3375C11.5885 11.7428 12.4115 11.7428 13.06 11.3375L20 7M5 18H19C20.1046 18 21 17.1046 21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+           <p style="float:inherit; padding-top: 17px;">enques@bytesplsh.in</p>
+        </div>
+        </div>
+    </div>
+    </header>
+    <img style="margin-left:17px; margin-right: 30px; float:left"src="C:\Users\admim\Downloads\about\MERN STACK\Designer-discuss.png" width="350px" height="350px">
+    <div>
+    <h1 style="padding-top: 30px; font-family: Mulish,sans-serif; color: #3b3a3a;;">The Best Software Training And Placement Institute In Marathahalli, Bengaluru </h1>
+    <p style="padding-top:22px; font-family: Mulish,sans-serif;color:gray">All Courses Included with the Student Dahsboard wth the <a  class="name" href="#" target="_blank">Byte Splash LMS, Learning Management System </a>for the students as the dashboard for the courses and its assigments and daily class recordings.
+    </p>
+    </div>
+    <button class="name1">Get Started</button>
+    <h2 style="font-family: Mulish, sans-serif; color:gray;font-weight: 200; padding-top: 10px;">Courses</h2>
+    <img src="C:\Users\admim\Downloads\about\MERN STACK\courses-icons.png" width="800px" height="100px">
+</body>
+</html>
